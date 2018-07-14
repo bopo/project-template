@@ -1,0 +1,10 @@
+pytest==3.3.2
+django-coverage-plugin
+django-jenkins
+pytest-django
+pytest-sugar
+
+coverage
+mock
+nose
+ddt

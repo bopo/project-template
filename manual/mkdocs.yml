@@ -1,0 +1,62 @@
+site_name: 互兆接口文档
+site_description: 互兆项目
+
+# theme: readthedocs
+theme: 'mkdocs'
+theme_dir: 'docs/themes'
+
+markdown_extensions:
+ - toc:
+    anchorlink: True
+
+pages:
+  - 文档概述: 'index.md'
+  - 快速入门:
+    - '快速入门': 'chapter1/01_Quickstart.md'
+    - '开发规范': 'chapter1/02_Standard.md'
+    - '协议介绍': 'chapter1/02_Restful.md'
+    - '权限认证': 'chapter1/03_Permissions.md'
+    - '返回说明': 'chapter1/04_Return.md'
+    - '排错指引': 'chapter1/05_Debug.md'
+
+
+  - 接口说明:
+    - '基础部分':
+      - '基础部分': 'chapter2/01_Basics.md'
+      - '手机应用': 'chapter2/07_Still.md'
+      - '二维码定义': 'chapter2/03_QRCode.md'
+    - '注册登录': 'chapter2/02_Authentication.md'
+    - '用户中心':
+      - '用户信息': 'chapter2/03_Users.md'
+      - '消息中心': 'chapter2/02_Notice.md'
+      - '银行卡管理': 'chapter2/02_Bankcard.md'
+      - '通 讯 录': 'chapter2/02_Contact.md'
+      - '数币账户': 'chapter2/07_Account.md'
+      - '商城相关': 'chapter2/07_Mall.md'
+      - '其他': 'chapter2/08_Other.md'
+    - '聊天交流': 'chapter2/04_IM.md'
+    - '认证合约': 'chapter2/05_Sign.md'
+    # - '合约部分': 'chapter2/05_Contract.md'
+    - '朋友圈子': 'chapter2/06_Circle.md'
+    # - '三方相关':
+    #   - '电脑代登录': 'chapter4/01_Local.md'
+    #   - '手机代登录': 'chapter4/05_Roadmap.md'
+      
+  - 业务说明:
+    - '业务流程': 'chapter3/01_Roadmap.md'
+    - '产品文档': 'chapter3/02_Documents.md'
+    - '对外接口': 'chapter3/03_Interface.md'
+    - '二维码定义': 'chapter2/03_QRCode.md'
+  #   - '语法总结': 'chapter3/06_Summary.md'
+
+  - 部署说明:
+    - '自动化部署':
+      - '虚拟化单机': 'chapter6/02_Docker.md'
+      - '虚拟化云端': 'chapter6/03_Docker.md'
+    - '自定义部署': 
+      - '主系统部署': 'chapter6/01_Server.md'
+      - '分布式文件': 'chapter6/01_Server.md'
+      - '消息服务器': 'chapter6/01_Server.md'
+
+  - 参考资料: 'chapter7/chapter7.md'
+

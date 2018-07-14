@@ -1,0 +1,59 @@
+django
+django-environ
+django-extensions
+# django-import-export
+django-reversion
+django-imagekit
+django-filters
+django-filter
+django-model-utils
+django-jsonfield
+django-lifecycle
+django-split-settings
+django-suit-dashboard
+django-suit
+django-mptt
+
+django-allauth
+
+# search
+django-haystack
+drf-haystack
+whoosh
+
+# 扩展功能
+django-oauth-toolkit
+django-social-auth
+django-qiniu-storage
+django-storages
+django-payments
+django-thumbor
+
+# websocket
+channels 
+
+# 多语言翻译
+django-modeltranslation
+
+# 多态模型
+django-polymorphic
+
+# drf
+djangorestframework
+djangorestframework-msgpack
+djangorestframework_simplejwt
+djangorestframework-jwt
+django-rest-swagger
+
+# lib
+whitenoise
+short_url
+hashids
+psutil
+pillow
+jpush
+
+# wechat
+pycrypto
+requests
+wechatpy

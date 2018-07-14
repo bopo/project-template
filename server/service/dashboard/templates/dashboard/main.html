@@ -1,0 +1,18 @@
+{% extends "suit_dashboard/base.html" %}
+{% load static %}
+
+{% block dashboard_css %}
+  {% if not suit %}
+    <link href="{% static 'dashboard/bootstrap/dist/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'dashboard/bootstrap/dist/css/bootstrap-theme.min.css' %}" rel="stylesheet">
+    {# JQuery must be loaded first! #}
+    <script src="{% static 'dashboard/jquery/dist/jquery.min.js' %}"></script>
+  {% endif %}
+{% endblock %}
+
+{% block dashboard_js %}
+  {% if not suit %}
+    <script src="{% static 'dashboard/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+  {% endif %}
+  <script src="{% static 'dashboard/highcharts/highcharts.js' %}"></script>
+{% endblock %}

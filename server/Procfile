@@ -1,0 +1,7 @@
+server: python manage.py runserver
+worker: celery -A config worker -l info
+beater: celery -A config beat -l info
+flower: celery -A config flower
+minios: minio server ./runtime/storage
+rediss: redis-server
+daphne: daphne -b 0.0.0.0 -p 8080 config.routing:application

@@ -1,0 +1,6 @@
+django-celery-results
+django-celery-beat
+django-redis
+
+flower
+redis

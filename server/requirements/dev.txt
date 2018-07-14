@@ -1,0 +1,12 @@
+-r base.txt
+-r test.txt
+-r task.txt
+
+django-debug-toolbar
+django-baker
+django-silk
+django-seed
+
+fabric3
+honcho
+raven
